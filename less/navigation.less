@@ -2,23 +2,29 @@
 
 nav {
     width: 800px;
-    margin: 20px auto;
+    margin: auto;
     background-color: @nav-bg;
     
     h1{
         font-size: 50px;
-        text-align: center;
+        .center();
         color: @nav-font;
     }
     .nav-links{
-        text-align: center;
+        .center();
         margin-top: 20px;
+        margin-bottom: 20px;
     
         a{
             text-decoration: none;
             font-size: 17px;
             margin: 20px;
             color: @nav-font;
+     
+        }
+
+        img{
+            .width-mixin();
         }
     }
 }
