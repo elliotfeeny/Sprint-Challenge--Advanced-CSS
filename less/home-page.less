@@ -97,6 +97,13 @@
             .button-mixin(@btn-bg-color, 100%, 50px, 5px, white, 1.80rem)
           }
         }
+
+        button:hover {
+          .button-mixin(white, 30%, 35px, 5px, @btn-bg-color, 1.80rem);
+        }
+        @media @phone {
+          .button-mixin(white, 100%, 50px, 5px, @btn-bg-color, 1.80rem);
+        }
       }
     }
 
