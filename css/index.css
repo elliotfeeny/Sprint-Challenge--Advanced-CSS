@@ -255,6 +255,7 @@ footer {
   .home .walk {
     display: flex;
     flex-direction: column-reverse;
+    padding: 0px;
   }
 }
 .home .walk .walk-text {
@@ -263,6 +264,7 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-text {
     width: 100%;
+    margin-top: 20px;
   }
 }
 .home .walk .walk-text h3 {
@@ -314,6 +316,7 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-img {
     width: 100%;
+    margin: 0px;
   }
 }
 .home .walk .walk-img img {
