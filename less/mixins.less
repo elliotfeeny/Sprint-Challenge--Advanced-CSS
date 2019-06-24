@@ -1,1 +1,19 @@
 // Mixins Here
+
+.center() {
+    text-align: center;
+    margin: auto;
+}
+
+.width-mixin(){
+    width: 100%;
+}
+
+.button-mixin(@btn-bg-color, @width, @height, @border-radius, @font-color, @font-size) {
+    background-color: @btn-bg-color;
+    width: @width;
+    height: @height;
+    border-radius: @border-radius;
+    color: @font-color;
+    font-size: @font-size;
+  }

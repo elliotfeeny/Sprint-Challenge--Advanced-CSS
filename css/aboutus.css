@@ -1,0 +1,50 @@
+footer {
+  color: #22283B;
+  background: #f4f4f4;
+  padding: 20px 0;
+  border: 1px double #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 17px;
+    margin: 20px;
+    color: black;
+
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    background-color: lightgray;
+    }
+
+    html {
+        font-size: 62.5%;
+      }
+      
+      html, body {
+        font-family: 'Ubuntu', sans-serif;
+        
+      }
+      
+      h1, h2, h3, h4, h5 {
+        font-family: 'Russo One', sans-serif;
+       
+      }
+      
+      h2 {
+        font-size: 3.2rem;
+      }
+      
+      h3 {
+        font-size: 2.8rem;
+      }

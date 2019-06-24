@@ -1,1 +1,34 @@
 // Navigation code here
+
+nav {
+    width: 800px;
+    margin: auto;
+    background-color: @nav-bg;
+
+    @media @phone{
+        .width-mixin();
+    }
+    
+    h1{
+        font-size: 50px;
+        .center();
+        color: @nav-font;
+
+    
+    }
+    .nav-links{
+        .center();
+        margin-top: 20px;
+        margin-bottom: 20px;
+    
+        a{
+            text-decoration: none;
+            font-size: 17px;
+            margin: 20px;
+            color: @nav-font;
+     
+        }
+
+     
+    }
+}
